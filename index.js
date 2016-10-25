@@ -59,7 +59,7 @@ program
   .action(() => {
     console.log('Starting decryption');
     console.log(`Using data: ${data}`);
-    const response = encryptPayload(data);
+    const response = encryptPayload(JSON.stringify(data));
     console.log(`Result: ${response}`);
   });
 
