@@ -1,0 +1,22 @@
+{
+  "name": "vogons",
+  "version": "1.0.0",
+  "description": "encrypting and decrypting data packets to test api calls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "decrypt": "node index.js decypt",
+    "encrypt": "node index.js encrypt",
+    "lint": "eslint ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "m3.intl.config": "^1.0.0",
+    "ursa": "^0.9.4"
+  },
+  "devDependencies": {
+    "eslint-config-m3.intl.agrajag": "^0.1.4"
+  }
+}
